@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website - easy tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- <i class="fa fa-search"></i> -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" width="100px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/ux Designer</p>
+                <h1>HI im <span>Bibek</span> <br> ydv form nepal</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------about-------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/usertoback.jpg" alt="" background:black;>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elis excepturi, libero inventore ducimus hic
+                        laborum natus? Alias explicabo laborum id eum reprehenderit ea repellat aliquam eligendi quae.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/?UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Advance Level</span><br>PYTHON AND FRAMEWORK AND API</li>
+                            <li><span>Ddvance Level</span><br>HTML, CSS, JACASCRIPTS</li>
+                            <li><span>Baise Level</span><br>java, .net, php, </li>
+                            <li><span>web Decelopment</span><br>web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br>UI/UX Design training at ET institute web/App interfaces
+                            </li>
+                            <li><span>2019 - 2021</span><br>Team lead at starApp llc</li>
+                            <li><span>2010 - 2021</span><br>UI/UX design executive at coin digital ltd.</li>
+                            <li><span>2019 - 2023</span><br>Internship at ekart ecommerce</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>UI/UX desigin training at et institute</li>
+                            <li><span>2019</span><br>MBA form MIT pokhara.</li>
+                            <li><span>2020</span><br>BBA form ISM pokhara</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------services------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <!-- <i class="fa-brands fa-facebook"></i> -->
+                    <p>Web design encompasses the visual and interactive aspects of a website. It involves planning and
+                        creating the layout, color schemes, typography, and overall look and feel of a site to ensure it
+                        is both attractive and user-friendly. Here’s a comprehensive guide to web design:</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>UX/UI Design refers to the intertwined disciplines of User Experience (UX) and User Interface
+                        (UI) design, both crucial for creating effective and engaging digital products like websites and
+                        mobile applications. Here’s a comprehensive overview:</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP design</h2>
+                    <p>Designing an app involves creating a product that is not only visually appealing but also
+                        functional, intuitive, and engaging for users. The process integrates principles of UX (User
+                        Experience) and UI (User Interface) design to deliver a cohesive and effective user experience.
+                        Here’s a comprehensive guide to app design:</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------portfolio---------------------------- -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Platforms for Social Media Ads
+                            Facebook/Instagram: Both use Meta’s advertising platform, allowing for detailed targeting
+                            and various ad formats.
+                            Twitter: Offers promoted tweets, trends, and accounts.
+                            LinkedIn: Focuses on professional targeting with options for sponsored content and InMail.
+                            TikTok: Features short-form video ads and influencer collaborations.
+                            YouTube: Provides video ads that can appear before, during, or after other videos.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Patient Management: Registration, scheduling, medical records.
+                            Staff Management: Doctor profiles, nurses, administrative staff.
+                            Appointment Scheduling: Booking, rescheduling, cancellatio
+                            Patients: Name, contact info, medical history, etc.
+                            Doctors: Specialization, schedule, contact info.
+                            Appointments: Date, time, patient, doctor.
+                            Billing: Patient, amount, date, status.
+                            Inventory: Item, quantity, expiration date.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shoping App</h3>
+                        <p>User Accounts: Registration, login, and user profiles.
+                            Product Catalog: Categories, search, and filters.
+                            Product Details: Description, images, price, and reviews.
+                            Shopping Cart: Add, remove, and update items.
+                            Checkout Process: Address, payment options, and order confirmation.
+                            Order Management: View order history and track orders.
+                            Admin Dashboard: Manage products, orders, and users</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- -------------------------contact------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>yadavbibek271@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9814718787</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://google.com"><i><i class="fa-brands fa-google"></i></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/99bibek - Copy.docx" download class="btn btn2">Dowload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="text" name="phone" placeholder="Your phone number" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Bibek. Made with <i class="fa-solid fa-heart"></i> by Easy tutorials</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classlist.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxZxVos4IXYKSbuYK6lpuLjMwIfnz2-QRqvbSH5oyr4uqIOBtUYAm9G064vv56M3sUq/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message send successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+</body>
+
+</html>
